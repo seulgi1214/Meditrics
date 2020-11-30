@@ -1,0 +1,65 @@
+#header span {
+    font-size: 1.5rem;
+    font-weight: 600;
+} 
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.avatar__text {
+    margin-left: 2rem;
+}
+
+.avatar__text h5 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.avatar__text p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: gray;
+}
+
+.avatar__text progress {
+    width: 200px;
+}
+
+
+/* profile */
+
+.profile__lists {
+    position: relative;
+}
+
+.profile__lists::before {
+    content: "";
+    width: 100%;
+    height: 20px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.profile__list li {
+    position: relative; 
+    border-bottom: 1px solid gainsboro;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 2rem 2rem;
+}
+
+.profile__list li:first-child {
+    margin-top: 2rem;
+}
+
+.profile__list li i {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,130 @@
+
+.meditation__recent-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meditation__recent-title h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.meditation__recent-title span {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #FF3B30;
+}
+
+.meditation__recent-title span i{
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+
+.meditation__recent-contents {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.recent-img img {
+    display: block;
+    margin-right: 2rem;
+}
+
+.recent-subtitle {
+    display: flex;
+    align-items: center;
+}
+
+.recent-subtitle p:first-child {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.recent-subtitle p:nth-child(2){
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.recent-subtitle i {
+    font-size: 1.6rem;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+
+/* meditation__recom */
+
+.meditation__recom h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.meditation__recom__wrap,
+.meditation__featured__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.meditation__recom-row img,
+.meditation__recom-row span,
+.meditation__featured-row img,
+.meditation__featured-row span {
+    display: block;
+}
+
+.meditation__recom-row span:nth-child(2),
+.meditation__featured-row span:nth-child(2)  {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.meditation__recom-row span:nth-child(3),
+.meditation__featured-row span:nth-child(3)  {
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 500;
+}
+
+.meditation__featured-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meditation__featured-title h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.meditation__featured-title span {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #FF3B30;
+}
+
+.meditation__featured-title span i{
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+
+
+
+
+@media (max-width: 375px) {
+    .meditation__recom-row img {
+        width: 43vw;     
+    }
+
+    .meditation__featured-row img {
+        width: 43vw;     
+    }
+}

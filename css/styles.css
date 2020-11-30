@@ -17,6 +17,14 @@ p, h1, h2, h3, h4, h5, ul {
     margin: 0;
 }
 
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .wrap {
     max-width: 420px;
@@ -93,6 +101,10 @@ p, h1, h2, h3, h4, h5, ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#header img {
+    display: block;
 }
 
 .today__recent-title {
