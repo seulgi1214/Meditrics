@@ -1,0 +1,72 @@
+.wrap {
+    padding: 4rem 2rem 0 2rem;
+}
+
+
+.logo {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.logo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -40px;
+    background: url("../images/login/login__icon.png") no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 3rem;
+}
+
+.login__img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.login__text {
+    margin: 3rem 0;
+}
+
+.login__text span {
+    display: block;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.login__text p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.signBtn {
+    outline: none;
+    border: none;
+    background-color: #5856D6;
+    color: white;
+    padding: 1.5rem 3rem;
+    border-radius: 25px;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 3rem 0 1rem 0;
+}
+
+.account {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.account strong {
+    color: #FF3B30;
+    margin-left: 1rem;
+}

@@ -9,7 +9,7 @@ body {
 /* sleep Featured */
 
 .sleep__featured {
-    background: url("../images/sleep/sleep__bg.png");
+    background: url("../images/sleep/sleep__bg.png") no-repeat;
     width: 100%;
     height: 100%;
 }
