@@ -1,0 +1,114 @@
+body {
+    background-color: #2D0D4E;
+}
+
+.divider {
+    background-color: rgba(185, 142, 202, 0.185);
+}
+
+/* sleep Featured */
+
+.sleep__featured {
+    background: url("../images/sleep/sleep__bg.png");
+    width: 100%;
+    height: 100%;
+}
+
+.sleep__featured-title,
+.sleep__music-title,
+.sleep__cast-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sleep__featured-title h3,
+.sleep__music-title h3,
+.sleep__cast-title h3  {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
+
+.sleep__featured-title span,
+.sleep__music-title span,
+.sleep__cast-title span {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #FF9F0A;
+}
+
+.sleep__featured-title span i, 
+.sleep__music-title span i,
+.sleep__cast-title span i {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+
+.sleep__featured__wrap,
+.sleep__cast__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.sleep__featured-row img,
+.sleep__featured-row span,
+.sleep__music__img img,
+.sleep__cast__wrap img,
+.sleep__cast__wrap span {
+    display: block;
+}
+
+.sleep__featured-row span:nth-child(2),
+.sleep__cast-row span:nth-child(2) {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
+
+.sleep__featured-row span:nth-child(3),
+.sleep__music-sub span:nth-child(2),
+.sleep__cast-row span:nth-child(3) {
+    font-size: 1.2rem;
+    color: rgba(218, 218, 218, 0.5);
+    font-weight: 500;
+}
+
+/* sleep music */
+
+.sleep__music__wrap {
+    margin-top: 1rem;
+}
+
+.sleep__music-col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.sleep__music-sub {
+    margin-left: 2rem;
+}
+
+.sleep__music-sub span {
+    display: block;
+    color: white;
+}
+
+.sleep__music-sub span:nth-child(1) {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
+
+.sleep__playBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
