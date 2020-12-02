@@ -6,6 +6,34 @@ body {
     background-color: rgba(185, 142, 202, 0.185);
 }
 
+/* nav */
+
+.row1 ~ span {
+    color: black;
+}
+
+.row2 ~ span {
+    color: black;
+}
+
+.row3 ~ span {
+    color: #FF9F0A;
+}
+
+.row1 {
+    background: url("../images/nav/Vector1.png") no-repeat center;
+}
+
+.row2 {
+    background: url("../images/nav/Vector2.png") no-repeat center;
+}
+
+.row3 {
+    background: url("../images/nav/Vector3__red.png") no-repeat center;
+}
+
+
+
 /* sleep Featured */
 
 .sleep__featured {
