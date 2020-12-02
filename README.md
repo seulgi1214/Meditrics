@@ -3,7 +3,7 @@
 
 
 ## 미리보기
-https://kellogg-s.vercel.app/
+https://meditrics.vercel.app/
 
 ## 프로젝트 사용언어
 
